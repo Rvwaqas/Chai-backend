@@ -1,6 +1,7 @@
 git init
 git add .
 git commit -m "message"
+git push
 git branch -M name of the branch
 
 create public folder then create temp then create .gitkeep
@@ -9,5 +10,12 @@ create .gitignore file then take content from gitignore generator https://mrkand
 create .env
 
 npm i -D nodemon  "dev": "nodemon src/index.js"
+npm i _D prettier  add file .prettierrc   =>{"singleQuote":false, "bracketSpacing":true,"tabWidth":2,"trailingComma":"es5" "semi":true}  then create .prettierignore *.env
+.env
+.env.*
+/.vscode
+/.node_modules
+./dist
+
 
 
