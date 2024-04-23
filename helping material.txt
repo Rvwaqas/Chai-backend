@@ -1,0 +1,13 @@
+git init
+git add .
+git commit -m "message"
+git branch -M name of the branch
+
+create public folder then create temp then create .gitkeep
+create .gitignore file then take content from gitignore generator https://mrkandreev.name/snippets/gitignore-generator/ select Node
+
+create .env
+
+npm i -D nodemon  "dev": "nodemon src/index.js"
+
+
