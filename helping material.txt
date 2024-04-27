@@ -18,4 +18,7 @@ npm i _D prettier  add file .prettierrc   =>{"singleQuote":false, "bracketSpacin
 ./dist
 
 
+SHA256 for auto generate token
+
+
 
