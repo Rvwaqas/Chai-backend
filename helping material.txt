@@ -19,6 +19,6 @@ npm i _D prettier  add file .prettierrc   =>{"singleQuote":false, "bracketSpacin
 
 
 SHA256 for auto generate token
-
+cloudinary for file upload
 
 
