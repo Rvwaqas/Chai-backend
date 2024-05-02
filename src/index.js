@@ -11,7 +11,7 @@ import app from './app.js'
 //Second ways of connect database
 
 dotenv.config({
-    path:'./env'
+    path:'./.env'
 });
 
 connectDB().
