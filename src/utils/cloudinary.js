@@ -11,7 +11,7 @@ cloudinary.config({
 
 
 
-const uploadonCloudinary=async (localFilePath)=>{
+const uploadOnCloudinary=async (localFilePath)=>{
 try{
     if(!localFilePath) return null
     //upload the file on cloudinary
@@ -29,8 +29,9 @@ try{
 }
 
 }
+export {uploadOnCloudinary}
 
-
-cloudinary.uploader.upload("https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg",
-  { public_id: "olympic_flag" }, 
-  function(error, result) {console.log(result); });
+// sec way
+// cloudinary.uploader.upload("https://upload.wikimedia.org/wikipedia/commons/a/ae/Olympic_flag.jpg",
+//   { public_id: "olympic_flag" }, 
+//   function(error, result) {console.log(result); });
